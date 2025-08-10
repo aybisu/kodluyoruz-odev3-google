@@ -7,13 +7,9 @@
  display: flex;
  justify-content: center;
  align-items: center;
- margin-top: 10%;
+ margin-top: 10%;    
+}
 
-    
-}
-img{
-    object-fit: cover;
-}
 
 .search-box{
     display:flex;
@@ -21,8 +17,8 @@ img{
     justify-content: center;
     align-items: center;
     height: auto;
-    margin: 20px auto;
-    width: 1000px;
+    margin: 0 auto  0 ;
+    width: 800px;
     background-color: #eeeeee;
 }
 
@@ -45,5 +41,12 @@ margin-right: 20px;
 width: auto;
 }
 .footer{
-    
+     display:flex ;
+     flex-direction: r;
+     justify-content: center;
+     align-items: center;
+     background-color: rgb(152, 181, 197);
+     height: auto;
+     width: 800px;
+     margin: 0 auto  0 ;
 }
