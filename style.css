@@ -18,8 +18,9 @@
     align-items: center;
     height: auto;
     margin: 0 auto  0 ;
-    width: 800px;
+    width: 1000px;
     background-color: #eeeeee;
+    box-sizing: border-box;
 }
 
 .search{
@@ -29,24 +30,89 @@
 }
 
 .btn-group{
-display: flex;
+display: row;
 justify-content:center ;
 align-items: center;
  
 }
 .btn{
 background-color: #eeeeee;
-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
 margin-right: 20px;
 width: auto;
 }
+
+
 .footer{
-     display:flex ;
-     flex-direction: r;
-     justify-content: center;
-     align-items: center;
-     background-color: rgb(152, 181, 197);
+    width: 1000px;
+    padding: 10px;
+    margin:  -5px auto;
+
+}
+
+.card{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 300px;
+ padding: 5px;
+ margin-right: 5px;
+ box-sizing: border-box;
+ 
+ 
+}
+
+.content {
+ display: flex;
+ justify-content:center;
+ gap:5px;
+   
+}
+.footer a, 
+.footer p  {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 16px;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.copyright{
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+.footer{
+    width: auto;
+     background-color: #7EE5DA;
      height: auto;
-     width: 800px;
-     margin: 0 auto  0 ;
+     margin: 20px auto;
+     
+} 
+
+
+.content{
+   float: left;
+}
+
+.card{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    padding: 1%;
+    margin-right: 5px;
+    border: 2px;
+    float: left;
+  
+   
 }
